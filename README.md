@@ -25,9 +25,9 @@ Next we will scale the features for train and test using the `StandardScaler` fr
 
 We will create a logistic regression model using the `LogisticRegression` module from `sklearn`. We will fit the model using the training data, and make predictions using the testing data. From this we get the training and testing scoresas below
 
-**_Training Data Score:_** 0.928
+**_Training Data Score:_** 0.929
 
-**_Testing Data Score:_** 0.927
+**_Testing Data Score:_** 0.921
 
 **_Logistic Regression Model Accuracy Score:_** 0.921
 
@@ -37,8 +37,11 @@ This model is 92.1% accurate at detecting spam and this is a good model.
 
 We will create a random forest model using the `RandomForestClassifier` module from `sklearn`. We will fit the model using the training data, and make predictions using the testing data. From this we get the training and testing scores as below
 
-**_Testing Data Score:_** 0.955
+**_Training Data Score:_** 0.999
+**_Testing Data Score:_** 0.948
 
 ## Evaluate the models.
 
-Based on the accuracy score for the models using the `accuracy_score` method from `sklearn`. The accuracy score for the logistic regression model is 0.921 and the accuracy score for the random forest model is 0.955. The random forest model is more accurate at detecting spam.
+Based on the accuracy score for the models using the `accuracy_score` method from `sklearn`. The accuracy score for the logistic regression model is 0.921 and the accuracy score for the random forest model is 0.948. The random forest model is more accurate at detecting spam.
+
+## Resources. Class work, ChatGPT, the Learning expert.
