@@ -9,7 +9,7 @@ We will create two classification models to fit the provided data, and evaluate 
 
 ## Splitting the data into training and testing sets.
 
-We will use the `train_test_split` method from `sklearn` to split the data into training and testing sets. We will use 80% of the data to train the model, and 20% of the data to test the model. We will assign `y` to the `Spam` column and `X` to the remaining columns.
+We will use the `train_test_split` method from `sklearn` to split the data into training and testing sets.  We will assign `y` to the `Spam` column and `X` to the remaining columns.
 
 ## Scale the features.
 
@@ -36,6 +36,6 @@ We will create a random forest model using the `RandomForestClassifier` module f
 
 ## Evaluate the models.
 
-Based on the accuracy score for the models using the `accuracy_score` method from `sklearn`. The accuracy score for the logistic regression model is 0.921 and the accuracy score for the random forest model is 0.948. The random forest model is more accurate at detecting spam.
+Based on the accuracy score for the models using the `accuracy_score` method from `sklearn`. The accuracy score for the logistic regression model is 0.921 and the accuracy score for the random forest model is 0.948. The Random Forest model is more accurate at detecting spam with a accuracy score of 0.948.
 
 ## Resources. Class work, ChatGPT, the Learning expert.
