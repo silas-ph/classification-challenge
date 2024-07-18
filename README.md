@@ -39,3 +39,6 @@ We will create a random forest model using the `RandomForestClassifier` module f
 Based on the accuracy score for the models using the `accuracy_score` method from `sklearn`. The accuracy score for the logistic regression model is 0.921 and the accuracy score for the random forest model is 0.948. The Random Forest model is more accurate at detecting spam with a accuracy score of 0.948.
 
 ## Resources. Class work, ChatGPT, the Learning expert.
+
+## Reference.
+Hopkins, M., Reeber, E., Forman, G. & Suermondt, J. 1999. Spambase [Dataset]. UCI Machine Learning Repository. Available: https://archive.ics.uci.edu/dataset/94/spambaseLinks to an external site. [2023, April 28].
